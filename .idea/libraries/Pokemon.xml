@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Pokemon">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar/Pokemon.jar!/" />
+      <root url="file://$PROJECT_DIR$/src/Data/moves" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src/Data" />
+    </SOURCES>
+  </library>
+</component>
