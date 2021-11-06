@@ -1,6 +1,9 @@
 package data.Pokemons;
 
-import data.moves.*;
+import data.moves.Blizzard;
+import data.moves.DoubleTeam;
+import data.moves.DragonRush;
+import data.moves.Swagger;
 import ru.ifmo.se.pokemon.*;
 
 public class Salamence extends Pokemon {

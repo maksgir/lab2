@@ -1,7 +1,8 @@
 package data.Pokemons;
 
 
-import data.moves.*;
+import data.moves.DoubleTeam;
+import data.moves.Swagger;
 import ru.ifmo.se.pokemon.*;
 
 public class Bagon extends Pokemon {

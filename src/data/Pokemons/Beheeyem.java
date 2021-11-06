@@ -1,7 +1,10 @@
 package data.Pokemons;
 
 
-import data.moves.*;
+import data.moves.BrutalSwing;
+import data.moves.Bulldoze;
+import data.moves.PoisonJab;
+import data.moves.Rest;
 import ru.ifmo.se.pokemon.*;
 
 public class Beheeyem extends Pokemon {

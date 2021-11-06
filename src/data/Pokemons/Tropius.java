@@ -1,6 +1,9 @@
 package data.Pokemons;
 
-import data.moves.*;
+import data.moves.Constrict;
+import data.moves.RockBlast;
+import data.moves.RockThrow;
+import data.moves.SweetScent;
 import ru.ifmo.se.pokemon.*;
 
 public class Tropius extends Pokemon {
