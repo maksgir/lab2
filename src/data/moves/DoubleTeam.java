@@ -17,3 +17,4 @@ public class DoubleTeam extends StatusMove {
         return "использует атаку Double Team";
     }
 }
+

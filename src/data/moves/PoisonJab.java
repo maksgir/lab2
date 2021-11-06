@@ -9,7 +9,9 @@ public class PoisonJab extends PhysicalMove {
 
     @Override
     protected void applyOppEffects(Pokemon poke) {
-        poke.setMod(Stat.SPEED, -1);
+        if (Math.random() < 0.3) {
+            Effect.poison(poke);
+        }
     }
 
     @Override

@@ -19,3 +19,5 @@ public class Blizzard extends SpecialMove {
         return "использует атаку Blizzard";
     }
 }
+
+// исправлено

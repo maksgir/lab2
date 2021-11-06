@@ -9,8 +9,10 @@ public class Constrict extends PhysicalMove {
     }
 
     @Override
-    protected void applySelfDamage(Pokemon att, double damage) {
-        att.setMod(Stat.HP, (int) (damage / 4));
+    protected void applyOppDamage(Pokemon poke, double damage) {
+        if (Math.random() < 0.1) {
+            poke.setMod(Stat.SPEED, -1);
+        }
     }
 
     @Override
@@ -18,3 +20,4 @@ public class Constrict extends PhysicalMove {
         return "использует атаку Constrict";
     }
 }
+

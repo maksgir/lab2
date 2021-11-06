@@ -9,12 +9,8 @@ public class RockThrow extends PhysicalMove {
 
 
     @Override
-    protected void applySelfDamage(Pokemon att, double damage) {
-        att.setMod(Stat.HP, (int) (damage / 4));
-    }
-
-    @Override
     protected String describe() {
         return "использует атаку Rock Throw";
     }
 }
+

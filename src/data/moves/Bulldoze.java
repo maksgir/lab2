@@ -17,3 +17,4 @@ public class Bulldoze extends PhysicalMove {
         return "использует атаку Bulldoze";
     }
 }
+

@@ -9,8 +9,8 @@ public class SweetScent extends StatusMove {
     }
 
     @Override
-    protected void applyOppEffects(Pokemon p) {
-        p.confuse();
+    protected void applyOppEffects(Pokemon poke) {
+        poke.setMod(Stat.EVASION, -1);
     }
 
     @Override
@@ -19,3 +19,4 @@ public class SweetScent extends StatusMove {
     }
 
 }
+

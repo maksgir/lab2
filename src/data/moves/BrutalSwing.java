@@ -7,10 +7,6 @@ public class BrutalSwing extends PhysicalMove {
         super(Type.DARK, 60, 100);
     }
 
-    @Override
-    protected void applySelfDamage(Pokemon att, double damage) {
-        att.setMod(Stat.HP, (int) (damage / 4));
-    }
 
     @Override
     protected String describe() {

@@ -19,3 +19,4 @@ public class Rest extends StatusMove {
         return "использует атаку Rest";
     }
 }
+

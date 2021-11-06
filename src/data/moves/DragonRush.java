@@ -9,7 +9,9 @@ public class DragonRush extends PhysicalMove {
 
     @Override
     protected void applyOppEffects(Pokemon poke) {
-        poke.setMod(Stat.SPEED, -1);
+        if (Math.random() < 0.2) {
+            Effect.flinch(poke);
+        }
     }
 
     @Override
@@ -17,3 +19,4 @@ public class DragonRush extends PhysicalMove {
         return "использует атаку Dragon Rush";
     }
 }
+
